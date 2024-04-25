@@ -1,0 +1,211 @@
+.image-1-icon {
+  width: 428px;
+  height: 926px;
+  position: absolute;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.dark-wallpaper-1,
+.dark-wallpaper-2 {
+  position: absolute;
+  top: -77px;
+  left: -90px;
+  width: 608px;
+  height: 1080px;
+  object-fit: cover;
+}
+.dark-wallpaper-2 {
+  z-index: 1;
+}
+.menu-component {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.frame-inner {
+  align-self: center;
+  height: 898px;
+  position: absolute;
+  background-color: var(--color-gray-300);
+  border: 2px solid var(--white);
+  box-sizing: border-box;
+  display: none;
+}
+.line-icon,
+.menu2 {
+  position: relative;
+  z-index: 3;
+}
+.line-icon {
+  align-self: center;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: fill;
+}
+.menu2 {
+  cursor: pointer;
+}
+.menu-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl);
+}
+.frame-child1,
+.menu3 {
+  position: relative;
+  z-index: 3;
+}
+.frame-child1 {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.menu3 {
+  cursor: pointer;
+}
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl);
+}
+.frame-child2,
+.menu4 {
+  position: relative;
+  z-index: 3;
+}
+.frame-child2 {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.menu4 {
+  cursor: pointer;
+}
+.menu-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl);
+}
+.frame-child3,
+.menu5 {
+  position: relative;
+  z-index: 3;
+}
+.frame-child3 {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.menu5 {
+  cursor: pointer;
+}
+.frame-div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl);
+}
+.frame-child4,
+.menu6 {
+  position: relative;
+  z-index: 3;
+}
+.frame-child4 {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.menu6 {
+  cursor: pointer;
+}
+.menu-wrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl);
+}
+.frame-child5,
+.menu7 {
+  position: relative;
+  z-index: 3;
+}
+.frame-child5 {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.menu7 {
+  cursor: pointer;
+}
+.menu-wrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl);
+}
+.frame-child6 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 3;
+}
+.menu1,
+.rectangle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-container {
+  align-self: stretch;
+  background-color: var(--color-gray-300);
+  border: 2px solid var(--white);
+  padding: 272px 0 267px;
+  gap: 9px;
+  z-index: 2;
+}
+.menu1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  padding: var(--padding-base) var(--padding-2xl) var(--padding-base)
+    var(--padding-3xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--white);
+  font-family: var(--font-montaga);
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./notification.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montaga:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre ExtraBold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="notification">
+      <img class="image-1-icon2" alt="" src="./public/image-1@2x.png" />
+
+      <main class="dark-wallpaper-1-group">
+        <img
+          class="dark-wallpaper-12"
+          alt=""
+          src="./public/dark-wallpaper-1@2x.png"
+        />
+
+        <img
+          class="dark-wallpaper-22"
+          alt=""
+          src="./public/dark-wallpaper-1@2x.png"
+        />
+      </main>
+      <div class="notification-container">
+        <div class="notification-container-child"></div>
+        <div class="notification-container-inner">
+          <div class="frame-parent18">
+            <div class="frame-wrapper15">
+              <img
+                class="frame-child80"
+                loading="lazy"
+                alt=""
+                src="./public/group-19.svg"
+                id="groupIcon"
+              />
+            </div>
+            <h3 class="notifications">NOTIFICATIONS</h3>
+          </div>
+        </div>
+        <div class="line-parent">
+          <img class="frame-child81" loading="lazy" alt="" />
+
+          <div class="multi-level-menu">
+            <div class="menu-wrapper3">
+              <div class="menu15">your ride is booked!!</div>
+            </div>
+            <img class="multi-level-menu-child" loading="lazy" alt="" />
+
+            <div class="menu-wrapper4">
+              <div class="menu16">plan your next ride at 20% off</div>
+            </div>
+            <img class="multi-level-menu-item" loading="lazy" alt="" />
+
+            <div class="menu-wrapper5">
+              <div class="menu17">new feature you should know about</div>
+            </div>
+            <img class="multi-level-menu-inner" loading="lazy" alt="" />
+
+            <div class="menu-wrapper6">
+              <div class="menu18">having trouble? contact us</div>
+            </div>
+          </div>
+          <img class="frame-child82" loading="lazy" alt="" />
+
+          <div class="menu-wrapper7">
+            <div class="menu19">best rides in the city!!</div>
+          </div>
+          <img class="frame-child83" loading="lazy" alt="" />
+
+          <div class="menu-wrapper8">
+            <div class="menu20">check out your recent visits</div>
+          </div>
+          <img class="frame-child84" loading="lazy" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var groupIcon = document.getElementById("groupIcon");
+      if (groupIcon) {
+        groupIcon.addEventListener("click", function (e) {
+          window.location.href = "./menu.html";
+        });
+      }
+      </script>
+  </body>
+</html>

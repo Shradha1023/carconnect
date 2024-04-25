@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./saving.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montaga:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre ExtraBold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="saving">
+      <div class="your-booking-is">YOUR BOOKING IS SAVED</div>
+      <div class="child-menu">
+        <div class="rectangle-parent14" id="popupgroupContainer">
+          <div class="frame-child71"></div>
+          <div class="menu8">MENU</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var popupgroupContainer = document.getElementById("popupgroupContainer");
+      if (popupgroupContainer) {
+        popupgroupContainer.addEventListener("click", function (e) {
+          window.location.href = "./menu.html";
+        });
+      }
+      </script>
+  </body>
+</html>

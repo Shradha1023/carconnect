@@ -1,0 +1,903 @@
+.booking-original-child {
+  width: 428px;
+  height: 926px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  flex-shrink: 0;
+  display: none;
+  max-width: 100%;
+}
+.back-item {
+  margin-bottom: -4.099999999999909px;
+  height: 22.1px;
+  width: 35px;
+  position: relative;
+  object-fit: contain;
+}
+.booking {
+  margin: 0;
+  height: 36px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.back1 {
+  width: 225px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  cursor: pointer;
+}
+.black-sports-car-child,
+.image-4-icon1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+}
+.black-sports-car-child {
+  width: 354px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  display: none;
+}
+.image-4-icon1 {
+  height: 60px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-4-wrapper {
+  flex: 0.8025;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-26xl) var(--padding-13xl) 0 0;
+  box-sizing: border-box;
+  min-width: 105px;
+}
+.black-sports-car2 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.frame-child16,
+.frame-child17,
+.frame-child18,
+.frame-child19,
+.star-icon {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  min-height: 15px;
+  z-index: 1;
+}
+.star-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.per-day,
+.per-week {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.per-day {
+  margin-top: -6px;
+}
+.per-week-parent {
+  width: 149px;
+  font-size: var(--font-size-xs);
+}
+.black-sports-car-inner,
+.black-sports-car-parent,
+.per-week-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.black-sports-car-parent {
+  align-self: stretch;
+  gap: var(--gap-4xs-5);
+}
+.black-sports-car-inner {
+  flex: 1;
+  padding: var(--padding-16xl) 0 0;
+  box-sizing: border-box;
+  min-width: 103px;
+}
+.black-sports-car-item {
+  height: 153px;
+  width: 16px;
+  position: relative;
+  border-radius: 0 var(--br-xl) var(--br-xl) 0;
+  background-color: var(--color-gainsboro);
+  z-index: 1;
+}
+.back-parent,
+.black-sports-car1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.black-sports-car1 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-base);
+  row-gap: 20px;
+  cursor: pointer;
+  font-size: var(--font-size-sm);
+}
+.back-parent {
+  flex-direction: column;
+  gap: var(--gap-lg);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-montaga);
+}
+.image-2-icon,
+.white-sports-car-child {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+}
+.white-sports-car-child {
+  width: 354px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  display: none;
+}
+.image-2-icon {
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-2-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-27xl) var(--padding-5xl) 0 0;
+  box-sizing: border-box;
+  min-width: 110px;
+}
+.white-sports-car1 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.frame-child20,
+.frame-child21,
+.frame-child22,
+.frame-child23,
+.frame-child24 {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  min-height: 15px;
+  z-index: 1;
+}
+.star-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.per-day1,
+.per-week1 {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.per-day1 {
+  margin-top: -6px;
+}
+.per-week-group {
+  width: 149px;
+  font-size: var(--font-size-xs);
+}
+.per-week-group,
+.white-sports-car-inner,
+.white-sports-car-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.white-sports-car-parent {
+  align-self: stretch;
+  gap: var(--gap-4xs-5);
+}
+.white-sports-car-inner {
+  width: 158px;
+  padding: var(--padding-16xl) 0 0;
+  box-sizing: border-box;
+}
+.white-sports-car-item {
+  height: 153px;
+  width: 16px;
+  position: relative;
+  border-radius: 0 var(--br-xl) var(--br-xl) 0;
+  background-color: var(--color-gainsboro);
+  z-index: 1;
+}
+.white-sports-car {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-4xs);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  max-width: 100%;
+  row-gap: 20px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-montaga);
+}
+.image-5-icon,
+.yellow-sports-car-child {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+}
+.yellow-sports-car-child {
+  width: 354px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  display: none;
+}
+.image-5-icon {
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-5-wrapper {
+  width: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-28xl) 0 0;
+  box-sizing: border-box;
+}
+.yellow-sports-car1 {
+  position: relative;
+  z-index: 1;
+}
+.frame-child25,
+.frame-child26,
+.frame-child27,
+.frame-child28,
+.frame-child29 {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  min-height: 15px;
+  z-index: 1;
+}
+.star-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.per-day2,
+.per-week2 {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.per-day2 {
+  margin-top: -6px;
+}
+.per-week-container {
+  width: 149px;
+  justify-content: flex-start;
+  font-size: var(--font-size-xs);
+}
+.frame-wrapper2,
+.per-week-container,
+.yellow-sports-car-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.yellow-sports-car-parent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-4xs-5);
+}
+.frame-wrapper2 {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-15xl);
+}
+.frame-child30 {
+  height: 153px;
+  width: 16px;
+  position: relative;
+  border-radius: 0 var(--br-xl) var(--br-xl) 0;
+  background-color: var(--color-gainsboro);
+  z-index: 1;
+}
+.frame-parent2,
+.yellow-sports-car {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frame-parent2 {
+  flex: 1;
+  align-items: flex-end;
+  min-width: 113px;
+}
+.yellow-sports-car {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-4xs);
+  gap: var(--gap-5xl);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-montaga);
+}
+.image-7-icon,
+.silver-sports-car-child {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+}
+.silver-sports-car-child {
+  width: 354px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  display: none;
+}
+.image-7-icon {
+  height: 41px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-7-wrapper {
+  width: 131px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-35xl) 0 0;
+  box-sizing: border-box;
+}
+.silver-sports-car1 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.frame-child31,
+.frame-child32,
+.frame-child33,
+.frame-child34,
+.frame-child35 {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  min-height: 15px;
+  z-index: 1;
+}
+.star-parent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.per-day3,
+.per-week3 {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.per-day3 {
+  margin-top: -6px;
+}
+.per-week-parent1 {
+  width: 149px;
+  justify-content: flex-start;
+  font-size: var(--font-size-xs);
+}
+.frame-wrapper3,
+.per-week-parent1,
+.silver-sports-car-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.silver-sports-car-parent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-4xs-5);
+}
+.frame-wrapper3 {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-15xl);
+}
+.frame-child36 {
+  height: 153px;
+  width: 16px;
+  position: relative;
+  border-radius: 0 var(--br-xl) var(--br-xl) 0;
+  background-color: var(--color-gainsboro);
+  z-index: 1;
+}
+.frame-parent3 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  min-width: 113px;
+}
+.silver-sports-car,
+.teal-sports-car-child {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.silver-sports-car {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-2xs);
+  gap: var(--gap-17xl);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-montaga);
+}
+.teal-sports-car-child {
+  height: 153px;
+  width: 354px;
+  position: relative;
+  display: none;
+}
+.image-8-icon {
+  height: 36px;
+  width: 134px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.teal-sports-car1 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.per-week-price-label-child,
+.per-week-price-label-child1,
+.per-week-price-label-child2,
+.per-week-price-label-inner,
+.per-week-price-label-item {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  min-height: 15px;
+  z-index: 1;
+}
+.per-week-price-label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.teal-car-label,
+.teal-car-label-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.teal-car-label {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.teal-car-label-wrapper {
+  flex: 1;
+  padding: var(--padding-15xl) 0 0;
+}
+.frame-child37 {
+  align-self: stretch;
+  width: 19px;
+  position: relative;
+  border-radius: 0 var(--br-xl) var(--br-xl) 0;
+  background-color: var(--color-gainsboro);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 1;
+}
+.frame-parent5,
+.per-day4 {
+  align-self: stretch;
+  display: flex;
+  flex-shrink: 0;
+}
+.frame-parent5 {
+  height: 153px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  debug_commit: 1de1738;
+}
+.per-day4 {
+  height: 20px;
+  position: relative;
+  align-items: center;
+  z-index: 1;
+}
+.teal-car-image {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+}
+.per-week4 {
+  height: 20px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  margin-left: -149px;
+}
+.booking-button {
+  width: 149px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  margin-top: -69px;
+  font-size: var(--font-size-xs);
+}
+.frame-parent4,
+.teal-sports-car-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.frame-parent4 {
+  align-self: stretch;
+  height: 78px;
+  justify-content: flex-start;
+  padding: 0;
+}
+.teal-sports-car-inner {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-4xs);
+  min-width: 113px;
+}
+.teal-sports-car,
+.teal-sports-car-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.teal-sports-car {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  border: 1px solid var(--color-gray-200);
+  align-items: flex-end;
+  padding: 0 0 var(--padding-45xl) var(--padding-mini);
+  gap: var(--gap-10xl);
+  debug_commit: 1de1738;
+}
+.teal-sports-car-wrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-10xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-montaga);
+}
+.green-sports-car-child,
+.image-9-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+}
+.green-sports-car-child {
+  width: 354px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  display: none;
+}
+.image-9-icon {
+  height: 46px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-9-wrapper {
+  width: 141px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-31xl) 0 0;
+  box-sizing: border-box;
+}
+.green-sports-car1 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.frame-child38,
+.frame-child39,
+.frame-child40,
+.frame-child41,
+.frame-child42 {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  min-height: 15px;
+  z-index: 1;
+}
+.star-parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.per-day5 {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.per-day-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+}
+.per-week5 {
+  height: 20px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  margin-left: -149px;
+}
+.frame-parent7 {
+  width: 149px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-xs);
+}
+.frame-wrapper4,
+.green-sports-car-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.green-sports-car-parent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-4xs-5);
+}
+.frame-wrapper4 {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-15xl);
+}
+.frame-child43 {
+  height: 153px;
+  width: 16px;
+  position: relative;
+  border-radius: 0 var(--br-xl) var(--br-xl) 0;
+  background-color: var(--color-gainsboro);
+  z-index: 1;
+}
+.frame-parent6 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  min-width: 113px;
+}
+.booking-original,
+.green-sports-car {
+  background-color: var(--white);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.green-sports-car {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  border: 1px solid var(--color-gray-200);
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-4xs);
+  gap: var(--gap-9xl);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-montaga);
+}
+.booking-original {
+  width: 100%;
+  height: 926px;
+  position: relative;
+  overflow-y: auto;
+  flex-direction: column;
+  padding: var(--padding-18xl) var(--padding-15xl) var(--padding-96xl);
+  gap: 35.8px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 356px) {
+  .teal-sports-car {
+    flex-wrap: wrap;
+    padding-right: var(--padding-mini);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 352px) {
+  .silver-sports-car {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 350px) {
+  .black-sports-car-item {
+    width: 100%;
+    height: 16px;
+  }
+  .black-sports-car1 {
+    flex-wrap: wrap;
+    padding-right: var(--padding-base);
+    padding-bottom: var(--padding-base);
+    box-sizing: border-box;
+  }
+  .white-sports-car-item {
+    width: 100%;
+    height: 16px;
+  }
+  .white-sports-car,
+  .yellow-sports-car {
+    flex-wrap: wrap;
+    padding-right: var(--padding-4xs);
+    padding-bottom: var(--padding-4xs);
+    box-sizing: border-box;
+  }
+  .green-sports-car,
+  .silver-sports-car {
+    flex-wrap: wrap;
+    padding-right: var(--padding-2xs);
+    padding-bottom: var(--padding-2xs);
+    box-sizing: border-box;
+  }
+  .green-sports-car {
+    padding-right: var(--padding-4xs);
+    padding-bottom: var(--padding-4xs);
+  }
+  .booking-original {
+    height: auto;
+  }
+}
+@media screen and (max-width: 189px) {
+  .image-4-wrapper {
+    flex: 1;
+  }
+}

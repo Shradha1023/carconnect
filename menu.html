@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./menu.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montaga:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre ExtraBold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="menu1">
+      <img class="image-1-icon" alt="" src="./public/image-1@2x.png" />
+
+      <main class="menu-component">
+        <img
+          class="dark-wallpaper-1"
+          alt=""
+          src="./public/dark-wallpaper-1@2x.png"
+        />
+
+        <img
+          class="dark-wallpaper-2"
+          alt=""
+          src="./public/dark-wallpaper-1@2x.png"
+        />
+      </main>
+      <div class="rectangle-container">
+        <div class="frame-inner"></div>
+        <img class="line-icon" loading="lazy" alt="" />
+
+        <div class="menu-wrapper">
+          <div class="menu2" id="menuText">BOOKING</div>
+        </div>
+        <img class="frame-child1" loading="lazy" alt="" />
+
+        <div class="menu-container">
+          <div class="menu3" id="menuText1">TRACKING</div>
+        </div>
+        <img class="frame-child2" loading="lazy" alt="" />
+
+        <div class="menu-frame">
+          <div class="menu4" id="menuText2">HISTORY</div>
+        </div>
+        <img class="frame-child3" loading="lazy" alt="" />
+
+        <div class="frame-div">
+          <div class="menu5" id="menuText3">REVIEWS</div>
+        </div>
+        <img class="frame-child4" loading="lazy" alt="" />
+
+        <div class="menu-wrapper1">
+          <div class="menu6" id="menuText4">SETTINGS</div>
+        </div>
+        <img class="frame-child5" loading="lazy" alt="" />
+
+        <div class="menu-wrapper2">
+          <div class="menu7" id="menuText5">NOTIFICATIONS</div>
+        </div>
+        <img class="frame-child6" loading="lazy" alt="" />
+      </div>
+    </div>
+
+    <script>
+      var menuText = document.getElementById("menuText");
+      if (menuText) {
+        menuText.addEventListener("click", function (e) {
+          window.location.href = "./booking-original.html";
+        });
+      }
+      
+      var menuText1 = document.getElementById("menuText1");
+      if (menuText1) {
+        menuText1.addEventListener("click", function (e) {
+          window.location.href = "./tracking.html";
+        });
+      }
+      
+      var menuText2 = document.getElementById("menuText2");
+      if (menuText2) {
+        menuText2.addEventListener("click", function (e) {
+          window.location.href = "./history.html";
+        });
+      }
+      
+      var menuText3 = document.getElementById("menuText3");
+      if (menuText3) {
+        menuText3.addEventListener("click", function (e) {
+          window.location.href = "./reviews1.html";
+        });
+      }
+      
+      var menuText4 = document.getElementById("menuText4");
+      if (menuText4) {
+        menuText4.addEventListener("click", function (e) {
+          window.location.href = "./settings.html";
+        });
+      }
+      
+      var menuText5 = document.getElementById("menuText5");
+      if (menuText5) {
+        menuText5.addEventListener("click", function (e) {
+          window.location.href = "./notification.html";
+        });
+      }
+      </script>
+  </body>
+</html>

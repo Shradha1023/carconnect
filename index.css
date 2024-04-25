@@ -1,0 +1,143 @@
+
+.frame-child {
+  width: 428px;
+  height: 926px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  display: none;
+  max-width: 100%;
+}
+.carconnect {
+  height: 31px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.frame-item {
+  height: 36px;
+  width: 168px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--white);
+  display: none;
+}
+.menu {
+  position: relative;
+  display: inline-block;
+  min-width: 115px;
+  cursor: pointer;
+  z-index: 5;
+}
+.rectangle-group {
+  border-radius: var(--br-11xl);
+  background-color: var(--white-ffffff);
+  flex-direction: row;
+  padding: 0 26px 0 27px;
+  white-space: nowrap;
+  z-index: 4;
+}
+.car-connect-label,
+.rectangle-group,
+.rectangle-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.car-connect-label {
+  flex-direction: row;
+  padding: 0 var(--padding-42xl) 0 60px;
+  font-size: var(--font-size-11xl);
+}
+.rectangle-parent {
+  background-color: var(--color-gainsboro);
+  flex-direction: column;
+  padding: 59px 69px var(--padding-11xl) 70px;
+  box-sizing: border-box;
+  gap: var(--gap-3xl);
+  max-width: 100%;
+  z-index: 3;
+  text-align: left;
+  font-size: 40px;
+  color: var(--color-black);
+  font-family: var(--font-montaga);
+}
+.home-child {
+  width: 100%;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-400);
+  z-index: 2;
+}
+.gallery-1-icon,
+.home-child,
+.image-1 {
+  height: 80%;
+  position: absolute;
+}
+.image-1 {
+  top: 0;
+  bottom: 0;
+  left: 0%;
+  background-color: var(--color-black);
+  width: 428px;
+}
+.gallery-1-icon {
+  width: 40%;
+  z-index: 1;
+  object-fit: fill;
+  left: 0;
+  top: 277px;
+  transform: scale(3);
+}
+.wrapper-gallery-1 {
+  position: absolute;
+  top: 0;
+  left: -154px;
+  width: 736px;
+  height: 1103px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-1-parent {
+  align-self: stretch;
+  height: 374px;
+  position: relative;
+}
+.home {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 373px 0 0;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 289px) {
+  .car-connect-label {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 428px) {
+  .frame-child{
+    width: 100%;
+  }
+  .frame-item{
+    width: 100%;
+  }
+
+  
+}

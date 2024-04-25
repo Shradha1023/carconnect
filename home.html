@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./home.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montaga:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre ExtraBold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home1">
+      <img
+        class="premium-vector-childrens-po1"
+        alt=""
+        src="./public/premium-vector---childrens-posters-with-cars-road-map-and-lettering-little-driver-in-cartoon-style--1@2x.png"
+      />
+
+      <img class="gallery-1-icon1" alt="" src="./public/gallery-1@2x.png" />
+
+      <div class="rectangle-parent1">
+        <div class="rectangle-div"></div>
+        <div class="back" id="backContainer">
+          <img
+            class="back-child"
+            loading="lazy"
+            alt=""
+            src="./public/arrow-1.svg"
+          />
+
+          <h1 class="edit">EDIT</h1>
+        </div>
+        <main class="image-1-group">
+          <section class="image-11"></section>
+          <div class="rectangle-parent2">
+            <div class="frame-child7"></div>
+            <img
+              class="image-4-icon"
+              loading="lazy"
+              alt=""
+              src="./public/image-4@2x.png"
+            />
+          </div>
+        </main>
+        <div class="frame-wrapper">
+          <div class="group-div">
+            <div class="frame-child8"></div>
+            <div class="black-sports-car-wrapper">
+              <h2 class="black-sports-car">BLACK SPORTS CAR</h2>
+            </div>
+            <div class="checkin-checkout-container-wrapper">
+              <div class="checkin-checkout-container">
+                <div class="checkin-checkout-container-child"></div>
+                <div class="trip-only-wrapper">
+                  <div class="trip-only">Trip Only</div>
+                </div>
+                <button class="frame-button">
+                  <div class="frame-child9"></div>
+                  <div class="car-on-rent">Car on Rent</div>
+                </button>
+              </div>
+            </div>
+            <div class="frame-parent">
+              <div class="frame-container">
+                <div class="check-in-parent">
+                  <div class="check-in">CHECK-IN</div>
+                  <div class="check-out">CHECK-OUT</div>
+                </div>
+              </div>
+              <div class="frame-group">
+                <div class="rectangle-parent3">
+                  <div class="frame-child10"></div>
+                  <div class="aug-11-2022">aug 11, 2022</div>
+                </div>
+                <div class="rectangle-parent4">
+                  <div class="frame-child11"></div>
+                  <div class="aug-16-2022">aug 16, 2022</div>
+                </div>
+              </div>
+            </div>
+            <div class="frame-parent1">
+              <div class="rectangle-parent5">
+                <div class="frame-child12"></div>
+                <div class="price">PRICE</div>
+                <div class="j-a-n">$469</div>
+              </div>
+              <div class="rectangle-parent6">
+                <div class="frame-child13"></div>
+                <div class="your-name">YOUR NAME</div>
+                <div class="jane">JANE</div>
+              </div>
+              <div class="rectangle-parent7">
+                <div class="frame-child14"></div>
+                <div class="payment">PAYMENT</div>
+                <div class="visa">VISA</div>
+              </div>
+              <div class="frame-wrapper1">
+                <button class="rectangle-parent8">
+                  <div class="frame-child15" id="rectangle"></div>
+                  <div class="proceed">PROCEED</div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var backContainer = document.getElementById("backContainer");
+      if (backContainer) {
+        backContainer.addEventListener("click", function (e) {
+          window.location.href = "./booking-original.html";
+        });
+      }
+      
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./confirmation.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,378 @@
+.arrow-icon {
+  margin-bottom: -7.099999999999909px;
+  height: 22.1px;
+  width: 35px;
+  position: relative;
+  object-fit: contain;
+}
+.history1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 106px;
+}
+.back3,
+.green-sports-car2 {
+  position: absolute;
+  left: 34px;
+}
+.back3 {
+  top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  cursor: pointer;
+  font-size: var(--font-size-5xl);
+}
+.green-sports-car2 {
+  top: 713px;
+}
+.silver-sports-car2,
+.yellowsports-car {
+  position: absolute;
+  top: 772px;
+  left: 34px;
+}
+.yellowsports-car {
+  top: 831px;
+}
+.history-child,
+.yellow-sports-car2 {
+  position: absolute;
+  top: 890px;
+  left: 34px;
+}
+.history-child {
+  top: 604px;
+  left: 2px;
+  width: 428px;
+  height: 1px;
+  object-fit: contain;
+  z-index: 2;
+}
+.frame-child52 {
+  height: 32px;
+  width: 430px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.recent {
+  height: 31px;
+  width: 210px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-child53 {
+  height: 1px;
+  width: 23px;
+  position: absolute;
+  margin: 0 !important;
+  right: 26px;
+  bottom: 14px;
+  object-fit: contain;
+  z-index: 1;
+}
+.rectangle-parent11 {
+  position: absolute;
+  top: 0;
+  left: -2px;
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-17xl) 0;
+  box-sizing: border-box;
+}
+.frame-child54 {
+  position: absolute;
+  top: 33px;
+  left: 0;
+  width: 428px;
+  height: 1px;
+  object-fit: contain;
+}
+.frame-parent12 {
+  align-self: stretch;
+  height: 34px;
+  position: relative;
+  font-size: var(--font-size-xl);
+}
+.black-sports-car4 {
+  position: relative;
+  cursor: pointer;
+}
+.black-sports-car-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl) var(--padding-8xs);
+}
+.frame-child55 {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -9px;
+}
+.frame-child55,
+.yellow-sports-car3 {
+  position: relative;
+}
+.yellow-sports-car-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl) var(--padding-9xs);
+}
+.frame-child56 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -9px;
+}
+.red-sports-car {
+  position: relative;
+  display: inline-block;
+  min-width: 127px;
+}
+.red-sports-car-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl) var(--padding-10xs);
+}
+.frame-child57 {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -9px;
+}
+.line-wrapper1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.grey-sports-car {
+  position: relative;
+}
+.grey-sports-car-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl);
+}
+.frame-child58 {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -9px;
+}
+.black-sports-car5,
+.frame-child58 {
+  position: relative;
+}
+.black-sports-car-wrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-17xl) var(--padding-8xs);
+}
+.frame-child59 {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -9px;
+}
+.line-wrapper2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.teal-sports-car2 {
+  position: relative;
+}
+.teal-sports-car-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-17xl) var(--padding-9xs);
+}
+.frame-child60 {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -9px;
+}
+.line-wrapper3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.black-sports-car6 {
+  position: relative;
+}
+.black-sports-car-wrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-17xl) var(--padding-10xs);
+}
+.frame-child61 {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -9px;
+}
+.line-wrapper4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs) var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.black-sports-car7 {
+  position: relative;
+}
+.black-sports-car-wrapper3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-17xl);
+}
+.frame-child62 {
+  height: 32px;
+  width: 430px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.long-time-ago {
+  height: 31px;
+  width: 210px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-child63 {
+  height: 1px;
+  width: 23px;
+  position: absolute;
+  margin: 0 !important;
+  right: 26px;
+  bottom: 14px;
+  object-fit: contain;
+  z-index: 1;
+}
+.rectangle-parent12 {
+  margin-left: -2px;
+  align-self: stretch;
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-17xl) 0;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.blue-sports-car {
+  position: relative;
+}
+.blue-sports-car-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl);
+}
+.frame-parent11,
+.history {
+  width: 100%;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-montaga);
+}
+.frame-parent11 {
+  position: absolute;
+  top: 107px;
+  left: 0;
+  height: 565px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  max-width: 100%;
+}
+.history {
+  height: 926px;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
